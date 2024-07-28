@@ -1,9 +1,11 @@
-import Image from "next/image";
+import { Auth } from "../components/auth";
 
 export default function Home() {
+
   return (
     <main>
-      hello World
+      <Auth/>
+      <h1 className="header-text">Home Page</h1>
     </main>
   );
 }
