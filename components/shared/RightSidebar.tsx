@@ -8,13 +8,15 @@ export default function RightSidebar() {
           Suggested Communities
         </h3>
         <div className='mt-7 flex w-[350px] flex-col gap-9'>
-          Suggested Communites to be mapped here
+          <p className='text-base-regular text-light-3'>
+              No communities yet
+            </p>
         </div>
       </div>
       <div className='flex flex-1 flex-col justify-start'>
       <h3 className='text-heading4-medium text-light-1'>Similar Minds</h3>
       <div className='mt-7 flex w-[350px] flex-col gap-10'>
-        Similar Minds to be mapped here
+      <p className='text-base-regular text-light-3'>No users yet</p>
       </div>
       </div>
     </section>
