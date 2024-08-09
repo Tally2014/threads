@@ -22,7 +22,7 @@ interface Props {
   btnTitle: string;
 }
 
-export default function AccoutProfile({user, btnTitle}: Props) {
+export default function AccountProfile({user, btnTitle}: Props) {
 
   const form = useForm({
     resolver: zodResolver(UserValidation),

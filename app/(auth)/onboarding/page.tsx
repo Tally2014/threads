@@ -1,4 +1,4 @@
-import AccountProfile from "@/components/forms/AccoutProfile";
+import AccountProfile from "@/components/forms/AccountProfile";
 
 export default async function page() {
 
