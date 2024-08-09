@@ -1,7 +1,14 @@
 import AccountProfile from "@/components/forms/AccountProfile";
+import { currentUser  } from '@clerk/nextjs/server';
 
 export default async function page() {
-
+  const user = await currentUser();
+  if (!user) {
+    // User is not authenticated
+    return null;
+  }else{
+  console.log(user?.firstName);
+}
 
   const userData = {
     id: "stysvdsbd2233",
